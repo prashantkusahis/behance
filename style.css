@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin-top: 30px;
+  padding-left: 40px;
+}
+
+#menu {
+  width: 50%;
+  display: flex;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+#menu > p,
+#menu > i {
+  cursor: pointer;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translate(-3%, -50%);
+  width: 40%;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+#hello {
+  width: 60%;
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#introPara {
+  width: 60%;
+  line-height: 40px;
+}
+
+#read {
+  width: 60%;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+#left {
+  height: 100%;
+  width: 38%;
+  background-color: white;
+}
+
+#right {
+  height: 100%;
+  width: 62%;
+  background-color: blue;
+}
+
+#up {
+  height: 50%;
+  width: 100%;
+  background-color: green;
+  display: flex;
+}
+
+#upLeft {
+  height: 100%;
+  width: 50%;
+  background-color: pink;
+  background-image: url(./cactus.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(245, 208, 214, 0.878);
+}
+
+#upRight {
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
+  background-image: url(./cherry.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#down {
+  height: 50%;
+  width: 100%;
+  background-color: green;
+  background-image: url(./bottomPlant3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#leftRightButton {
+  position: absolute;
+  bottom: 0%;
+  left: 38%;
+  height: 49px;
+  width: 90px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
